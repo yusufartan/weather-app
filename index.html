@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hava Durumu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="photo/weather.png">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="message" id="errorMessage" style="display: none;">
+            <p id="success">Hatalı Şehir Girildi <i class="bxr bx-check-circle"></i></p>
+        </div>
+        <div class="app">
+            <div class="header">
+                <h1>HAVA DURUMU</h1>
+                <input type="text" id="searchInput" placeholder="Şehir Giriniz...">
+            </div>
+            <hr class="fancy-line">
+            <div class="content">
+                <div class="cityName">Muğla</div>
+                <div class="degree">38 °</div>
+                <div class="desc">Parçalı Bulutlu</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
