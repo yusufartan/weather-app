@@ -50,5 +50,3 @@ weather-app/
 │ ├── bg-photo.jpg
 │ └── weather.png
 
-## 📦 Folder Structure
-
